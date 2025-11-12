@@ -9,7 +9,7 @@
 
 .toolbar {
     display: flex;
-    background: #64f87d;
+    background: #066115;
 }
 
 .toolbar p {
@@ -20,7 +20,7 @@
 }
 
 .toolbar p:hover {
-    background: #47c65d;
+    background: #256d31;
     color: white;
 }
 
