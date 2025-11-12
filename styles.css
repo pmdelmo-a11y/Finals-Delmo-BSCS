@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.toolbar {
+    display: flex;
+    background: #64f87d;
+}
+
+.toolbar p {
+    margin: 0;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.toolbar p:hover {
+    background: #47c65d;
+    color: white;
+}
+
+.toolbar p.active {
+    background: #3da54f;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+  width: 200px;     
+  float: right;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  display: block; 
+  margin-top: 10px;
+}
+
+i {
+  color: #491daf;
+  font-size: 24px;
+  margin: 10px;
+}
